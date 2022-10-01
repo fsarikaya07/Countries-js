@@ -34,7 +34,7 @@ const createText = (data) => {
 
   resultEl.innerHTML =
     `
-  <div class="card" style="width: 18rem; background-color: rgba(224, 193, 141, 0.384);">
+  <div class="card" style="width: 18rem; background-color: rgba(224, 193, 141, 0.384); margin: 10px;">
         <img src="${png}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${common}</h5>
